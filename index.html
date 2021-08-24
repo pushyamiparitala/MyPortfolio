@@ -3,79 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=f, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet" />
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="uname">Home | Pushyami Rajeswari</title>
+     <link href="styles.css" rel="stylesheet">
+    </head>
 <body>
-    <h1 id="lib-header">Welcome to Pushyami's component Library</h1>
-    <h2>Component Library</h2>
-    <p class="para">Pushyami Rajeswari is attending neog.camp and is currently completing levelZero one weekend and
-         assignment at a time</p>
-    <p>This is a component library created by her to better design
-         each elemnt</p>
-    <p>After creating this library she is going to use the components in her 
-        <b>portfolio,blogs and all projects </b>created. This will 
-    ensure that all her projects have <b>Consistent themeing and 
-        styling</b></p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text. This is free flowing and
-    will wrap at the endlike a paragraph </p>
-    <small>This is relatively smaller text</small>
-    <hr>
-    <h2>@Containers</h2>
-    <h3>@fluid container</h3>
-    <div class="container">This is going to be a fluid container. It will go 
-        full width of the page.With some margin</div>
-    <h3>@center container</h3>
-    <div class="container container-center">
-        This is going to be a center container. It will go 
-            till a given width and center container</div>
-    <hr>
-    <h3>@links</h3>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <hr>
-    <h2>@lists</h2>
-    <h2>unordered list</h2>
-    <ul>
-        <li>Item One</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-    <h3>Unordered inline list</h3>
-
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item two</li>
-        <li>Inline Item three</li>
-      
-    </ul>
-    <h3>Reverse ordered list</h3>
-    <ul>
-    <li>Milk</li>
-    <li>eggs/li>
-    <li>bread</li>
-    </ul>
-    <h2>@nav</h2>
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Products</a></li>
-        <li><a href="/">Blog</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/project.html">Projects
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blog.html">Blogs</a>
+            </li>
         </ul>
-    </nav>
-    <hr>
-    <h2>@header</h2>
-    <header>
-        <img src="images/heroine.svg"/>
-        <h1>heading inside here</h1>
-    </header>
-<div style="height:30vh;"></div>
+        </nav>
+        <header class="heroine">
+            <img class="heroine-img"  src="images/heroine.svg"/>
+            <h1 class="heroine-heading">Pushyami Rajeswari Paritala <br>
+            <span class="heading-inverted">ASE at Accenture</span> 
+            </h1> 
+        </header>
+        <section class="section ow">
+            <div class="container container-center">
+                <h1 class="tech">Technologies</h1>
+                <p>I am familiar with HTML5, 
+                    css3,Git,JavaScript,NodeJS,Java,Blockchain Technology.</p>
+                    <h3><strong>Some of my other skills include:</strong></h3> 
+                  <p>  ● Languages/Frameworks :Java/J2EE, J2SE, C, JavaScript, C++.<br>
+                    ● Presentation Tier: HTML, CSS.<br>
+                    ● Skills: Data Structures and Algorithms<br>
+                    ● Web/Services: JDBC.<br>
+                    ● Database Tier: Oracle, MySQL. <br>
+                    ● IDE: Eclipse,Netbeans,Remix. <br>
+                    ● Tools: Truffle, Ganache, Metamask</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container container-center">
+                <h1 class="proj">Projects</h1>
+                <p>I am currently developing projects in association with NeoGCamp.
+                    I have done couple of projects in my college related to 
+                    Blockchain Technology
+                </p>
+                <a class="link link-primary" href="/project.html">See Project</a>
+            </div>
+        </section>
+        <section class="section ow">
+            <div class="container container-center">
+                <h1>Certifications</h1>
+                <p>
+                    1.Oracle certified in Java.<br>
+                    2.Certified by coursera on Basics of Blockchain Technology <small><a href="https://www.coursera.org/account/accomplishments/verify/424XAW2WX4W7"> view credentials</small></a> <br>
+                    3.Certified by coursera on Smart Contracts <small> <a href="https://www.coursera.org/account/accomplishments/certificate/7DQZ5VJZ7BTS"> view credentials </small></a><br> </p>                
+            </div>
+        </section>
+        <section class="section">
+            <div class="container container-center">
+                <h1 class="blog">Blogs</h1>
+                <p>I am trying to document my journey at NeoGCamp</p>
+            <a class="link link-primary" href="/blog.html">My Blog
+            </a>
+        </div>
+        </section>
+      <footer class="footer">
+          <div class="footer-header">
+              Social Media Presence
+          </div>
+          <ul class="Social-links list-non-bullet">
+              <li class="list-item-inline">
+                  <a class="link" href="https://github.com/pushyamiparitala">github</a>
+              </li>
+          </ul>
+        <ul>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/pushyamiparitala">LinkedIn</a>
+            </li>
+        </ul>
+      </footer>
 </body>
 </html>
